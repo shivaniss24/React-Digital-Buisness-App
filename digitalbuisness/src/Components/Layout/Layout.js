@@ -2,11 +2,12 @@ import React from 'react'
 import css from './Layout.module.css';
 import moment from 'moment/moment';
 import {BiSearch} from 'react-icons/bi';
+import Sidebar from './Sidebar/Sidebar';
 
 const Layout = () => {
   return (
     <div className={css.container}>
-    <div>Sidebar</div>
+ <Sidebar/>
     <div className={css.dashboard}>
         <div className={css.topBaseGradient}>
             <div className="gradient-red"></div>
