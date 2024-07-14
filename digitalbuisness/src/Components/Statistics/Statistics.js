@@ -28,12 +28,12 @@ const Statistics = () => {
     <span>
        profit
     </span>
-    <span>$ groupNumber{37000}</span>
+    <span>$ {groupNumber(37000)}</span>
 </div>
 
 <div className={css.card}>
     <span>Daily Average</span>
-    <span>$ groupNumber{57348}</span>
+    <span>$ {groupNumber(57348)}</span>
 </div>
     </div>
     )
