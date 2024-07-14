@@ -50,12 +50,14 @@ export const ordersData = [
   },
 ];
 
+
 //* get the value in group number format
 export const groupNumber = (number) => {
   return parseFloat(number.toFixed(2)).toLocaleString("en", {
     useGrouping: true,
   });
 };
+
 
 //* calendar Events
 let eventGuid = 0;
