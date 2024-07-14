@@ -5,10 +5,12 @@ import { groupNumber } from '../../data/data';
 const Statistics = () => {
   return (
     <div className={`${css.container} theme-container`}>
-<span className={css.title}>Overview of statistics</span>
-<div className={`${css.cards} grey-container`}>
-    <div className={css.arrowIcon}>
-    <BsArrowUpShort/>
+      <span className={css.title}>Overview of statistics</span>
+    
+    <div className={`${css.cards} grey-container`}>
+        <div>
+     <div className={css.arrowIcon}>
+        <BsArrowUpShort/>
     </div>
 
     <div className={css.card}>
@@ -21,6 +23,7 @@ const Statistics = () => {
     <span>Items</span>
     <span>$ {groupNumber(74.0003)}</span>
 </div>
+
 <div className={css.card}>
     <span>
         Profit
@@ -35,6 +38,7 @@ const Statistics = () => {
     <span>Daily Average</span>
     <span>$ {groupNumber(57348)}</span>
 </div>
+    </div>
     </div>
     )
 }
