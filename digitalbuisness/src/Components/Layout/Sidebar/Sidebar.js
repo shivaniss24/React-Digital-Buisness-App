@@ -7,18 +7,25 @@ import {NavLink} from 'react-router-dom';
 
 const Sidebar = () => {
   return (
+    // container class
     <div className={css.container}>
-        <img src="./logo.png" alt="" className={css.logo}/>
+        <img src="./logo.png" alt="Logo" className={css.logo}/>
+
+        {/* Menu class */}
         <div className={css.menu}>
+            {/* item class */}
           <NavLink to="dashboard" className={css.item} title={"Dashboard"}>
             <MdSpaceDashboard size={30}/>
           </NavLink>
+          {/* item class */}
           <NavLink to="calender" className={css.item} title='calender'>
             <AiFillCalendar size={30}/>
           </NavLink>
+          {/* item class */}
           <NavLink to="board" className={css.item} title="Trello board">
             <FaTasks size={30}/>
           </NavLink>
+          {/* item class */}
           <NavLink to="users" className={css.item} title="users">
             <AiOutlineTable size={30}/>
           </NavLink>
