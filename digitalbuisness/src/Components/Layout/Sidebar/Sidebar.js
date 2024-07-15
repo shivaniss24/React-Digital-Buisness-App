@@ -18,7 +18,7 @@ const Sidebar = () => {
             <MdSpaceDashboard size={30}/>
           </NavLink>
           {/* item class */}
-          <NavLink to="calender" className={css.item} title='calender'>
+          <NavLink to="calendar" className={css.item} title='calendar'>
             <AiFillCalendar size={30}/>
           </NavLink>
           {/* item class */}

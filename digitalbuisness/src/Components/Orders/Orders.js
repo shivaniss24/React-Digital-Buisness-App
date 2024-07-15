@@ -12,7 +12,7 @@ const Orders = () => {
       </div>
 
       <div className={`grey-container  ${css.stat}`}>
-        <span>Amout</span>
+        <span>Amount</span>
         <span>{groupNumber(3662)}</span>
       </div>
 
