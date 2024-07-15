@@ -2,6 +2,7 @@ import React from 'react'
 import css from './Dashboard.module.css';
 import { cardsData,ordersData,groupNumber,INITIAL_EVENTS,boardData,userData } from '../../data/data';
 import Statistics from '../../Components/Statistics/Statistics';
+import Orders from '../../Components/Orders/Orders';
 const Dashboard = () => {
   return (
   //  container class
@@ -47,7 +48,7 @@ const Dashboard = () => {
       <Statistics/>
      </div>
     
-
+    <Orders/>
 
     {/* orders class  */}
     <div className={css.orders}>
