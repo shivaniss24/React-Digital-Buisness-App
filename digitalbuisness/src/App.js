@@ -4,6 +4,7 @@ import {BrowserRouter as Router,Routes,Route} from 'react-router-dom';
 import Layout from './Components/Layout/Layout';
 import Dashboard from './pages/Dashboard/Dashboard';
 import Calendar from './pages/Calendar/Calendar';
+import Boards from './pages/Board/Boards';
 
 
 
@@ -18,6 +19,8 @@ function App() {
           <Route path="Dashboard" element={<Dashboard/>}>
           </Route>
           <Route path="calendar" element={<Calendar/>}>
+          </Route>
+          <Route path="Board" element={<Boards/>}>
           </Route>
           </Route>
         </Routes>
