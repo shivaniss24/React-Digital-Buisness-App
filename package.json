@@ -27,7 +27,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "prebuild":"npm install --force",
-    "build":"npm run build --force"
+    "build":"npm run build --force && npm run build"
 
   },
   "eslintConfig": {
