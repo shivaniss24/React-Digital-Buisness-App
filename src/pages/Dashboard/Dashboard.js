@@ -52,7 +52,7 @@ const Dashboard = () => {
 
     {/* orders class  */}
     <div className={css.orders}>
-      orders
+      
     </div>
    </div>
   )
